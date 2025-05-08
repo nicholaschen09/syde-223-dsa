@@ -9,7 +9,6 @@ int main()
     int b = 3;
     std::cout << "Sum of " << a << " and " << b << " is: " << a + b << std::endl;
     std::cout << "Difference of " << a << " and " << b << " is: " << a - b << std::endl;
-    std::cout << "Product of " << a << " and " << b << " is: " << a * b << std::endl;
 
     return 0;
 }
