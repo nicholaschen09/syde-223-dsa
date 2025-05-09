@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int * p1 ;
+    int * p2 ;
+
+    p1 = (int *) 0xffffcc0c;    // may need to update this value so that it is same as the output from cout<< &x << endl;
+    p2 = (int *) 0xffffcc08;    // may need to update this value so that it is same as the output from cout<< &y << endl;
+
+//    *p1 = 10;
+//    *p2 = 20;
+
+    int x;      // what is the value of x now?
+    int y;      // what is the value of y now?
+
+    cout<< &x << endl;
+    cout<< &y << endl;
+
+    cout<< x << endl;
+    cout<< y << endl;
+
+    return 0;
+}
